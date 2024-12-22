@@ -33,6 +33,8 @@ export default [
 				'warn',
 				{ allowConstantExport: true },
 			],
+			"react-hooks/rules-of-hooks": "error", // Memastikan aturan Hooks diaktifkan
+    		"react-hooks/exhaustive-deps": "warn"  // Memastikan dependensi pada useEffect benar
 		},
 	},
 ]
